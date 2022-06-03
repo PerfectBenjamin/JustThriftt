@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+  
+  body{
+      font-family: 'Montserrat', sans-serif;
+      background-color: white;
+  }
+  
+  .banner-text{
+    width: 1890px;
+    position: relative;
+  }
+  
+  .banner-text ul{
+    height: 50px;
+    float: right;
+  }
+  
+  .banner-text ul li{
+    display: inline-block;
+    padding: 40px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .icon{
+    width: 400px;
+    height: 50px;
+    object-fit: cover;
+    float: left;
+    margin-top: 40px;
+    padding-left: 50px;
+    background-size: 50px;
+    box-sizing: border-box;
+  }
+
+  .a.header-text-style:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: white;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: white;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: white;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: white;
+  }
+
+.main{
+    border: 3px black;
+    width: 800px;
+    height: 100%;
+    margin-left: 400px;
+    padding-top: 150px;
+    margin-left: 530px;
+}
+
+.lh{
+    color: whitesmoke;
+    background-color: purple;
+    font-family: 'Times New Roman';
+    margin-left: 30px;
+}
+
+.tab{
+    border: 2px solid black;
+}
+
+.tab2{
+    border: 1px solid black;
+}
+
+pre{
+    font-size: 10;
+    font-family: Arial;
+    
+}
+
+.left{
+    background-color: purple;
+    height: 100%;
+    width: 250px;
+    float:left;
+    padding-bottom: 305px
+}
+
+.right{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 250px;
+    float:right;
+}
+
+.pfp{
+    width: 250px;
+    height: 245px;
+}
+
+.rh{
+    color: yellow;
+    background-color: black;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.emj{
+    color: yellow;
+}
+
+span{
+    color: whitesmoke;
+}
+
+.li{
+    color: whitesmoke;
+}
+
+.dot{
+    color: orange;
+}
+
+.black{
+    color: black;
+}
+
+.footer{
+    padding: 100px 15%;
+    background: #f1f1f1;
+    color: black;
+    display: flex;
+    width: 1320px;
+    position:absolute;
+    margin-top: 1080px;
+  }
+  
+  .footer div{
+    text-align: center;
+  }
+  
+  .col-2{
+    flex-grow: 2;
+  }
+  
+  .footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .col-1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  
+  form button{
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
